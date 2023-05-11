@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  background-color: #001734;
+}
+.button1 {
+  font: inherit;
+  border: 1px solid #4f005f;
+  background: #4f005f;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  height: 60px;
+  width: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 470px;
+  margin-top: 370px;
+}
+
+.button1:hover,
+.button1:active {
+  background: #741188;
+  border-color: #741188;
+}
+
+.button1:focus {
+  outline: none;
+}
+.button2 {
+  font: inherit;
+  border: 1px solid #4f005f;
+  background: #4f005f;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  height: 60px;
+  width: 250px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 170px;
+}
+
+.button2:hover,
+.button2:active {
+  background: #741188;
+  border-color: #741188;
+}
+
+.button2:focus {
+  outline: none;
+}

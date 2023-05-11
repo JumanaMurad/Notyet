@@ -1,0 +1,49 @@
+.new-expense__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-expenses__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-expenses__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-expense__actions {
+  text-align: right;
+}
+.custom-file-input {
+  display: inline-block;
+  position: relative;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  margin-right: 90px;
+  top: 20px;
+}
+
+.custom-file-input input[type="file"] {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}

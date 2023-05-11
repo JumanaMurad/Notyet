@@ -1,0 +1,43 @@
+.header5 .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 1rem;
+}
+.header5 .container .text {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header5 .container .purple {
+  background-color: plum;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 25rem;
+  height: 8rem;
+  margin-top: 50px;
+  margin-right: 10px;
+}
+
+.header5 .container .blue {
+  background-color: #6faff9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 25rem;
+  height: 8rem;
+  margin-top: 50px;
+
+  margin-right: 10px;
+}
+.header5 .container .green {
+  background-color: #6ef796;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 25rem;
+  height: 8rem;
+  margin-top: 50px;
+  margin-right: 10px;
+}

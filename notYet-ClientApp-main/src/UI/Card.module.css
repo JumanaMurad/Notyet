@@ -1,0 +1,12 @@
+.card {
+  background-color: #191970;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  height: 90%;
+  margin-top: 5px;
+  border-radius: 2%;
+  display: flex;
+  margin-left: 180px;
+  padding: 20px;
+  margin-bottom: 50px;
+}

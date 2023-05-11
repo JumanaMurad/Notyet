@@ -1,0 +1,104 @@
+.Loginform {
+  display: block;
+  /* flex-wrap: nowrap; */
+
+  gap: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 25rem;
+  /* text-align: left; */
+}
+.head {
+  color: #6faff9;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.head-2 {
+  color: gray;
+}
+
+.new-expense__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: flex;
+  position: left;
+  color: black;
+  margin-left: 7rem;
+}
+/*
+.new-expense__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  color: grey;
+  font-size: small;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px grey, 0 0 3px grey, 0 0 3px grey;
+} */
+
+.button {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5px;
+}
+.button :hover {
+  background-color: #6faff9;
+  color: white;
+}
+
+/* Control the CSS manipulation of the form */
+/* .form-control {
+  margin: 0.5rem 0;
+}
+.form-control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  color: grey;
+  font-size: small;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px grey, 0 0 3px grey, 0 0 3px grey;
+}
+
+.form-control input:focus {
+  outline: none;
+  background: #fad0ec;
+  border-color: #8b005d;
+}
+
+.form-control.invalid input {
+  border-color: red;
+  background: #ffd7d7;
+} */
+/* /////////////////// */
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin-left: 5rem;
+}
+.container label {
+  margin-right: 20px;
+}
+.container input {
+  margin-left: 15px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #6faff9;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin-left: 9rem;
+  font-weight: bold;
+}
