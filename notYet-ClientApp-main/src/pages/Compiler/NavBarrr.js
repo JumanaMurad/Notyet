@@ -5,6 +5,7 @@ import Chatbot from "./Chatbot";
 import { useState } from "react";
 import LogoWhiteText from "../../assets/LogoWhiteText.png";
 import { Link } from "react-router-dom";
+import Container from "./container/container";
 
 const NavBarrr = ({
   userLang,
@@ -74,7 +75,9 @@ const NavBarrr = ({
           <button className="slide-button" onClick={toggleWindow}>
             {isOpen ? "Close" : "Open"} WhiteBoard
           </button>
-          <div className={`slide-window ${isOpen ? "open" : ""}`}> </div>
+          <div className={`slide-window ${isOpen ? "open" : ""}`}>
+            <Container></Container>
+          </div>
         </ul>
         <ul>
           <button className="slide-button2" onClick={toggleWindow2}>
